@@ -1,6 +1,6 @@
 {
   "name": "egg-error",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "load error configs",
   "eggPlugin": {
     "name": "error"
@@ -10,7 +10,9 @@
     "eggPlugin",
     "egg-plugin"
   ],
-  "dependencies": {},
+  "dependencies": {
+    "egg-tracer": "^1.1.0"
+  },
   "devDependencies": {
     "autod": "^3.0.1",
     "autod-egg": "^1.1.0",
@@ -37,7 +39,8 @@
     "app.js",
     "agent.js",
     "config",
-    "app"
+    "app",
+    "lib"
   ],
   "ci": {
     "version": "8, 10"
