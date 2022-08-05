@@ -8,6 +8,6 @@
 
 'use strict';
 exports.tracer = {
-    enable: true,
-    package: 'egg-tracer',
+  enable: true,
+  package: 'egg-tracer',
 };

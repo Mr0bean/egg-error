@@ -8,10 +8,10 @@
 
 'use strict';
 
-const errorLoader = require('./lib/errorLoader')
+const errorLoader = require('./lib/errorLoader');
 
 // 装载入口
 module.exports = app => {
-    errorLoader(app)
-}
+  errorLoader(app);
+};
 

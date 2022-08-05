@@ -6,8 +6,8 @@ node_js:
 before_install:
   - npm i npminstall@5 -g
 install:
-  - npminstall
+  - npm install
 script:
   - npm run ci
 after_script:
-  - npminstall codecov && codecov
+  - npm install codecov && codecov
