@@ -107,16 +107,16 @@ exports.error = {
       - 输出
       ```javascript
         2022-08-05 16:06:05,037 ERROR 18145 [-/127.0.0.1/-/20ms GET /] nodejs.InternalServerError: 不好意思。提交数据不完整，请重试预定
-         at Object.throw (/Users/ruanchuhao/Documents/Codes/js/demoeggorder/node_modules/koa/lib/context.js:97:11)
-         at Object.throw (/Users/ruanchuhao/Documents/Codes/js/demoeggorder/node_modules/egg-error/lib/baseError.js:53:38)
-         at HomeController.index (/Users/ruanchuhao/Documents/Codes/js/demoeggorder/app/controller/home.js:13:16)
-         at Object.callFn (/Users/ruanchuhao/Documents/Codes/js/demoeggorder/node_modules/egg-core/lib/utils/index.js:44:21)
-         at Object.classControllerMiddleware (/Users/ruanchuhao/Documents/Codes/js/demoeggorder/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
-         at Object.callFn (/Users/ruanchuhao/Documents/Codes/js/demoeggorder/node_modules/@eggjs/router/lib/utils.js:12:21)
-         at wrappedController (/Users/ruanchuhao/Documents/Codes/js/demoeggorder/node_modules/@eggjs/router/lib/egg_router.js:322:18)
-         at dispatch (/Users/ruanchuhao/Documents/Codes/js/demoeggorder/node_modules/koa-compose/index.js:44:32)
-         at next (/Users/ruanchuhao/Documents/Codes/js/demoeggorder/node_modules/koa-compose/index.js:45:18)
-         at /Users/ruanchuhao/Documents/Codes/js/demoeggorder/node_modules/@eggjs/router/lib/router.js:186:18
+         at Object.throw (/Users/xx/Documents/Codes/js/demoeggorder/node_modules/koa/lib/context.js:97:11)
+         at Object.throw (/Users/xx/Documents/Codes/js/demoeggorder/node_modules/egg-error/lib/baseError.js:53:38)
+         at HomeController.index (/Users/xx/Documents/Codes/js/demoeggorder/app/controller/home.js:13:16)
+         at Object.callFn (/Users/xx/Documents/Codes/js/demoeggorder/node_modules/egg-core/lib/utils/index.js:44:21)
+         at Object.classControllerMiddleware (/Users/xx/Documents/Codes/js/demoeggorder/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+         at Object.callFn (/Users/xx/Documents/Codes/js/demoeggorder/node_modules/@eggjs/router/lib/utils.js:12:21)
+         at wrappedController (/Users/xx/Documents/Codes/js/demoeggorder/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+         at dispatch (/Users/xx/Documents/Codes/js/demoeggorder/node_modules/koa-compose/index.js:44:32)
+         at next (/Users/xx/Documents/Codes/js/demoeggorder/node_modules/koa-compose/index.js:45:18)
+         at /Users/xx/Documents/Codes/js/demoeggorder/node_modules/@eggjs/router/lib/router.js:186:18
         message: "不好意思。提交数据不完整，请重试预定"
         pid: 18145
         hostname: MacBook-Pro.local
