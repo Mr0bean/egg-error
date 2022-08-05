@@ -1,6 +1,6 @@
 {
   "name": "egg-error",
-  "version": "0.0.1",
+  "version": "0.1.1",
   "description": "load error configs",
   "eggPlugin": {
     "name": "error"
@@ -11,7 +11,8 @@
     "egg-plugin"
   ],
   "dependencies": {
-    "egg-tracer": "^1.1.0"
+    "egg-tracer": "^1.1.0",
+    "lodash": "^4.17.21"
   },
   "devDependencies": {
     "autod": "^3.0.1",

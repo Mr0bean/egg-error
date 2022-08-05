@@ -17,11 +17,11 @@ const EggError = require('../../lib/baseError');
  */
 function findErrorFunction(fun, ctx){
     return new Proxy(fun,{
-        get(targetObj, propoty){
-            if (targetObj[propoty] instanceof EggError){
-                targetObj[propoty].outputError(ctx);
+        get(targetObj, property){
+            if (targetObj[property] instanceof EggError){
+                return (fill) => {return targetObj[property].outputError(ctx, fill);}
             }else {
-                return findErrorFunction(targetObj[propoty], ctx);
+                return findErrorFunction(targetObj[property], ctx);
             }
         }
     })
